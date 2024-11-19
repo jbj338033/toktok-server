@@ -1,4 +1,6 @@
 package com.toktok
 
-class SignalData {
-}
+data class SignalData(
+    val type: String,
+    val data: String
+)
